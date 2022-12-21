@@ -15,7 +15,7 @@ namespace Tests
         /// Se testea que un Plug es adaptado a ISmartDevice
         /// </summary>
         /// 
-        [TestFixture]
+        [Test]
         public void AdapterTest()
         {
             Plug plug = new Plug("1");
