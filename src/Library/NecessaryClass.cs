@@ -32,7 +32,7 @@ public class driver : ISmartDevice
     }
    
     /// <summary>
-    ///  Apaga el dispositivo cuando está prendido
+    ///  Apaga el dispositivo cuando está encendido 
     /// </summary>
     
     public void Off()
