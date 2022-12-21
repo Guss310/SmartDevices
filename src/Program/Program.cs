@@ -5,23 +5,24 @@
 //--------------------------------------------------------------------------------
 
 using System;
-using ClassLibrary;
-
-namespace ConsoleApplication
+using AdapterExample;
+using NecessaryClass;
+namespace ProgramDemostration 
 {
     /// <summary>
-    /// Programa de consola de demostración.
+    /// Demostración 
     /// </summary>
-    public static class Program
+    public static class Demostration
     {
         /// <summary>
-        /// Punto de entrada al programa principal.
+        /// Main de Demostration
         /// </summary>
-        public static void Main()
+           public static void Main()
         {
-            var train = new Train();
-            train.StartEngines();
-            Console.WriteLine("Hello World!");
+            Plug plug = new Plug("1");
+            ISmartDevice SmartPlug = new driver(plug);
+            Console.WriteLine(SmartPlug.GetStatus());
+            SmartPlug.On();
         }
     }
 }
