@@ -7,6 +7,7 @@
 using System;
 using AdapterExample;
 using NecessaryClass;
+
 namespace ProgramDemostration 
 {
     /// <summary>
